@@ -15,11 +15,15 @@
             padding: 0;
             font-family: 'Inter', sans-serif;
         }
+
+        body {
+            background-color: rgb(245, 245, 245);
+        }
         
         nav {
             width: 100%;
             height: 70px;
-            background-color: rgb(245, 245, 245);
+            background-color: rgb(255, 255, 255);
             line-height: 70px;
             position: fixed;
         }
@@ -36,7 +40,7 @@
             left: 0;
             position: absolute;
             right: 25px;
-            background-color: rgb(245, 245, 245);
+            background-color: rgb(255, 255, 255);
             padding: 10px;
             margin: 10px;
             margin-top: 90px;
@@ -63,7 +67,7 @@
         }
 
         .notification {
-            background-color: rgb(255, 255, 255);
+            background-color: rgb(247, 247, 247);
             border-radius: 30px;
             text-align: center;
             padding: 5px 10px 5px 10px;
