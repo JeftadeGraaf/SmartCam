@@ -19,7 +19,7 @@
         nav {
             width: 100%;
             height: 70px;
-            background-color: rgb(240, 240, 240);
+            background-color: rgb(245, 245, 245);
             line-height: 70px;
             position: fixed;
         }
@@ -29,30 +29,45 @@
         }
 
         .sidenav {
-            height: 100%;
+            height: 65%;
             width: 20%;
             z-index: 1;
             top: 0;
             left: 0;
             position: absolute;
             right: 25px;
-            font-size: 36px;
-            background-color: rgb(240, 240, 240);
-            overflow-x: hidden;
-            transition: 0.5s;
+            background-color: rgb(245, 245, 245);
+            padding: 10px;
+            margin: 10px;
+            margin-top: 90px;
+            text-align: center;
+            border-radius: 30px;
             
         }
 
         .sidenav a {
-            padding: 8px 8px 8px 32px;
             text-decoration: none;
-            font-size: 25px;
-            color: rgb(200, 200, 200);
+            text-align: center;
+            font-size: 20px;
+            color: rgb(30, 30, 30);
             
         }
 
         .sidenav a:hover {
             color: #f1f1f1;
+        }
+
+        .events {
+            font-size: 25px;
+            padding: 10px;
+        }
+
+        .notification {
+            background-color: rgb(255, 255, 255);
+            border-radius: 30px;
+            text-align: center;
+            padding: 5px 10px 5px 10px;
+            margin: 10px;
         }
     </style>
     <body>
@@ -60,12 +75,17 @@
         <nav>
             <h1>Dashboard</h1>
         </nav>
-        <div id="mySidenav" class="sidenav">
-            <p>Gebeurtenissen</p>
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Clients</a>
-            <a href="#">Contact</a>
+        <div id="sidenav" class="sidenav">
+            <p class="events">Gebeurtenissen</p>
+            <div class="notification">
+                <a href="#">11-09-2023</a>
+            </div>
+            <div class="notification">
+                <a href="#">11-09-2023</a>
+            </div>
+            <div class="notification">
+                <a href="#">11-09-2023</a>
+            </div>
         </div>
 
     </body>
