@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-
 <html>
     <head>
+        <title>Bewakingscamera</title>
+        <link rel="stylesheet" href="/css/styles.css">
     </head>
     <body>
-        <p>
-            test
-        </p>
+        <nav>
+            <h1>Dashboard</h1>
+        </nav>
     </body>
 </html>
