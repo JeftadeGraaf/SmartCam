@@ -3,11 +3,15 @@
     <head>
         <title>Bewakingscamera</title>
         <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
     </head>
     <style>
         * {
             margin: 0;
             padding: 0;
+            font-family: 'Inter', sans-serif;
         }
         
         nav {
@@ -18,7 +22,7 @@
             position: fixed;
         }
         h1 {
-            color: rgb(20, 20, 200);
+            color: rgb(0, 0, 0);
             text-align: center;
         }
     </style>
