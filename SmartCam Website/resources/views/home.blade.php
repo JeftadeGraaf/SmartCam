@@ -54,12 +54,12 @@
             text-decoration: none;
             text-align: center;
             font-size: 18px;
-            color: rgb(30, 30, 30);
+            color: rgb(100, 100, 100);
             
         }
 
         .sidenav a:hover {
-            color: #f1f1f1;
+            color: rgb(30, 30, 30);
         }
 
         .events {
