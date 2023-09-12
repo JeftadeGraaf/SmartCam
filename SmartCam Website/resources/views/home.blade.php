@@ -114,7 +114,7 @@
         }
 
         .notification:hover {
-            top: -10px;
+            transform: translateY(-5px);
             
         }
     </style>
