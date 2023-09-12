@@ -88,6 +88,7 @@
             </div>
             <div class="notification">
                 <p>datum:</p>
+                <p>Hoi</p>
                 <a href="#">11-09-2023</a>
             </div>
             <div class="notification">
