@@ -72,7 +72,7 @@
         .sidenav {
             height: 65%;
             min-width: 300px;
-            width: 20%;
+            width: 17%;
             z-index: 1;
             top: 0;
             left: 0;
