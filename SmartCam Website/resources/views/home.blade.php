@@ -146,7 +146,9 @@
         <div class="flex-container">
             <div class="snapshot-preview">
                 <div class="snapshot-photo">
-                    <img src="C:\Users\Jeffrey\Pictures\stray.jpg">
+                <video controls>
+                    <source src="movie.mp4" type="video/mp4">
+                </video>
                 </div>
                 <div class="snapshot-info">
                     <p>
@@ -161,11 +163,7 @@
             </div>
             <div class="snapshot-preview">
                 <div class="snapshot-photo">
-                <video width="320" height="240" controls>
-                    <source src="movie.mp4" type="video/mp4">
-                    <source src="movie.ogg" type="video/ogg">
-                    Your browser does not support the video tag.
-                </video>
+                    <img src="https://www.cctvcamerapros.com/v/180/180-camera-IR-night-vision.jpg">
                 </div>
                 <div class="snapshot-info">
                     <p>
