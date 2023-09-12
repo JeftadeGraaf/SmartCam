@@ -6,6 +6,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com"> 
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     </head>
     <style>
         * {
@@ -19,6 +20,8 @@
             justify-content: right;
             flex-wrap: wrap;
             margin-right: 50px;
+            animation: backInDown; /* referring directly to the animation's @keyframe declaration */
+            animation-duration: 1.5s; /* don't forget to set a duration! */
         }
 
         .flex-container > .snapshot-preview{
