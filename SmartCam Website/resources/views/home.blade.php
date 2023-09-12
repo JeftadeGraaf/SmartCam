@@ -58,6 +58,7 @@
             background-color: rgb(255, 255, 255);
             line-height: 70px;
             position: fixed;
+            z-index: 999;
         }
         h1 {
             color: rgb(0, 0, 0);
@@ -71,7 +72,7 @@
         .sidenav {
             height: 65%;
             min-width: 300px;
-            width: 20%;
+            width: 17%;
             z-index: 1;
             top: 0;
             left: 0;
@@ -80,12 +81,19 @@
             background-color: rgb(255, 255, 255);
             padding: 10px;
             margin: 15px;
+            
             margin-top: 85px;
-         /*19fb805336c5ce389adf98e7a5b0980158fa0a74*/
+            border-radius: 30px;
             text-align: center;
         }
 
-        .sidenav a:hover {
+        .link {
+            text-decoration: none;
+            color: rgb(100, 100, 100)
+
+        }
+
+        .sidenav .link:hover {
             color: rgb(30, 30, 30);
         }
 
@@ -100,13 +108,14 @@
             text-align: center;
             padding: 5px 5px 5px 5px;
             margin: 10px;
-            transition: all 300ms;
+            transition: all 350ms ease;
             cursor: pointer;
             
         }
 
-        .notificaties:hover {
-            top: -10px;
+        .notification:hover {
+            transform: translateY(-5px);
+            
         }
     </style>
     <body>
@@ -117,16 +126,16 @@
             <p class="events">Gebeurtenissen</p>
             <div class="notification">
                 <p>datum:</p>
-                <a href="#">11-09-2023</a>
+                <a href="#" class="link">11-09-2023</a>
             </div>
             <div class="notification">
                 <p>datum:</p>
                 <p>Hoi</p>
-                <a href="#">11-09-2023</a>
+                <a href="#" class="link">11-09-2023</a>
             </div>
             <div class="notification">
                 <p>datum:</p>
-                <a href="#">11-09-2023</a>
+                <a href="#" class="link">11-09-2023</a>
             </div>
         </div>\
 
