@@ -44,7 +44,7 @@
             background-color: rgb(255, 255, 255);
             padding: 10px;
             margin: 10px;
-            margin-top: 90px;
+            margin-top: 80px;
             text-align: center;
             border-radius: 30px;
             
