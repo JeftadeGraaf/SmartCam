@@ -75,6 +75,11 @@
             margin: 10px;
             transition: all 300ms;
             cursor: pointer;
+            
+        }
+
+        .notificaties:hover {
+
         }
     </style>
     <body>
