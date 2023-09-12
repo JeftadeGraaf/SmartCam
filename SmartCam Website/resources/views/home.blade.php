@@ -51,6 +51,25 @@
             width: 600px;
             display: inline-block;
             font-weight: bold;
+        }
+        body {
+            background-color: rgb(245, 245, 245);
+        }
+
+        .sidenav {
+            height: 65%;
+            min-width: 300px;
+            width: 20%;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            position: absolute;
+            right: 25px;
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            margin: 15px;
+            margin-top: 85px;
+         /*19fb805336c5ce389adf98e7a5b0980158fa0a74*/
             text-align: center;
         }
 
