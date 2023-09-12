@@ -86,10 +86,39 @@
             background-color: rgb(255, 255, 255);
             padding: 10px;
             margin: 15px;
-            
             margin-top: 85px;
             border-radius: 30px;
             text-align: center;
+        }
+
+        .stop {
+
+        }
+
+        .stopBtn {
+            color: rgb(255, 255, 255);
+            font-size: 30px;
+            border: none;
+            background-color: rgb(230, 0, 0);
+            border-radius: 30px;
+            height: 100px;
+            text-align: center;
+            padding: 20px;
+            width: 90%;
+            transition: all 350ms ease;
+            cursor: pointer;
+            bottom: 0;
+            position: absolute;
+            margin: 0;
+            opacity: 0.6;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            transition: all 300ms ease;
+        }
+
+        .stopBtn:hover {
+            opacity: 1;
         }
 
         .link {
@@ -141,7 +170,12 @@
                 <p>datum:</p>
                 <a href="#" class="link">11-09-2023</a>
             </div>
+            <div class="stop">
+                <button class="stopBtn">Stop Detectie</button>
+            </div>
         </div>
+
+
 
         <div class="flex-container">
             <div class="snapshot-preview">
