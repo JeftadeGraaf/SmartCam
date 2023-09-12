@@ -113,14 +113,13 @@ body {
 
 .stopBtn {
     color: rgb(255, 255, 255);
-    font-size: 25px;
+    font-size: 22px;
     border: none;
     background-color: rgb(230, 0, 0);
     border-radius: 30px;
-    height: 80px;
+    height: 60px;
     text-align: center;
-    padding: 10px;
-    width: 90%;
+    width: 80%;
     transition: all 350ms ease;
     cursor: pointer;
     bottom: 0;
