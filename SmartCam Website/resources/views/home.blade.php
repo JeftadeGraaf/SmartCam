@@ -80,6 +80,23 @@
             text-align: center;
         }
 
+        .sidenav a:hover {
+            color: #f1f1f1;
+        }
+
+        .events {
+            font-size: 25px;
+            padding: 10px;
+        }
+
+        .notification {
+            background-color: rgb(247, 247, 247);
+            border-radius: 30px;
+            text-align: center;
+            padding: 5px 5px 5px 5px;
+            margin: 10px;
+            cursor: pointer;
+        }
     </style>
     <body>
         <nav>
