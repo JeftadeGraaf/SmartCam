@@ -10,9 +10,8 @@ a {
 
 .flex-container {
     display: flex;
-    justify-content: right;
+    justify-content: center;
     flex-wrap: wrap;
-    
     float: right;
     margin-right: 100px;
     padding-left: 360px;
@@ -21,6 +20,12 @@ a {
     animation: backInDown; /* referring directly to the animation's @keyframe declaration */
     animation-duration: 1.5s; /* don't forget to set a duration! */
 }
+
+@media screen and (max-width: 1720px) {
+    flex-container {
+        justify-content: center;
+    }
+  }
 
 .flex-container > .snapshot-preview{
     height: 400px;
@@ -78,6 +83,7 @@ body {
 .sidenav {
     height: 65%;
     min-width: 300px;
+    max-width: 300px;
     width: 17%;
     z-index: 1;
     top: 0;
@@ -90,19 +96,6 @@ body {
     margin-top: 85px;
     border-radius: 30px;
     text-align: center;
-}
-
-@media screen and (max-height: 450px) {
-    .sidenav {
-        width: 0;
-    }
-  }
-.sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
 }
 
 .stop {
