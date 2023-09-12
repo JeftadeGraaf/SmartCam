@@ -34,6 +34,7 @@
 
         .sidenav {
             height: 65%;
+            min-width: 300px;
             width: 20%;
             z-index: 1;
             top: 0;
@@ -67,10 +68,10 @@
         }
 
         .notification {
-            background-color: rgb(255, 255, 255);
+            background-color: rgb(247, 247, 247);
             border-radius: 30px;
             text-align: center;
-            padding: 5px 10px 5px 10px;
+            padding: 5px 5px 5px 5px;
             margin: 10px;
         }
     </style>
@@ -82,12 +83,15 @@
         <div id="sidenav" class="sidenav">
             <p class="events">Gebeurtenissen</p>
             <div class="notification">
+                <p>datum:</p>
                 <a href="#">11-09-2023</a>
             </div>
             <div class="notification">
+                <p>datum:</p>
                 <a href="#">11-09-2023</a>
             </div>
             <div class="notification">
+                <p>datum:</p>
                 <a href="#">11-09-2023</a>
             </div>
         </div>
