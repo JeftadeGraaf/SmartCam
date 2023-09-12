@@ -16,34 +16,34 @@
 
         .snapshot-preview{
             height: 400px;
-            width: 600px;
+            width: 550px;
             box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
             /* display: flex;
             justify-content: center; 
             align-items: center; */
 
             display: inline-block;
-            margin-left: 500px;
             margin-top: 100px;
         }
 
         .snapshot-photo{
             height: 300px;
-            width: 600px;
+            width: 550px;
             display: inline-block;
             cursor: pointer;
         }
 
         .snapshot-info{
             height: 50px;
-            width: 600px;
+            width: 550px;
             display: inline-block;
             font-weight: bold;
+            text-align: center;
         }
 
         .snapshot-date{
             height: 50px;
-            width: 600px;
+            width: 550px;
             display: inline-block;
             text-align: center;
 
@@ -128,8 +128,9 @@
                 <p>datum:</p>
                 <a href="#">11-09-2023</a>
             </div>
-        </div>
-            <div class="snapshot-preview">
+        </div>\
+
+            <div style="margin-left:360px;" class="snapshot-preview">
                 <div class="snapshot-photo">
                     <img src="C:\Users\Jeffrey\Pictures\stray.jpg">
                 </div>
@@ -148,7 +149,7 @@
         </div>
 
 
-            <div class="snapshot-preview">
+            <div style="margin-left:30px;" class="snapshot-preview">
                 <div class="snapshot-photo">
                     <img src="C:\Users\Jeffrey\Pictures\stray.jpg">
                 </div>
