@@ -24,6 +24,7 @@
 
             display: inline-block;
             margin-top: 100px;
+            border-radius: 30px;
         }
 
         .snapshot-photo{
