@@ -72,17 +72,19 @@
             text-align: center;
             padding: 5px 10px 5px 10px;
             margin: 10px;
+            cursor: pointer;
         }
     </style>
     <body>
         
         <nav>
-            <h1>Dashboard</h1>
+            <h1>Bewakings Dashboard</h1>
         </nav>
         <div id="sidenav" class="sidenav">
             <p class="events">Gebeurtenissen</p>
             <div class="notification">
-                <a href="#">11-09-2023</a>
+                <p>Datum:</p>
+                <a href="#">11-09-2023 @11:03:45</a>
             </div>
         </div>
 
