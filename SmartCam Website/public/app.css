@@ -66,9 +66,11 @@ nav {
     position: fixed;
     z-index: 999;
 }
-h1 {
+
+.dashboard {
     color: rgb(0, 0, 0);
     text-align: center;
+    font-size: 30px;
 }
 
 body {
@@ -103,7 +105,7 @@ body {
     border: none;
     background-color: rgb(230, 0, 0);
     border-radius: 30px;
-    height: 100px;
+    height: 80px;
     text-align: center;
     padding: 20px;
     width: 90%;
