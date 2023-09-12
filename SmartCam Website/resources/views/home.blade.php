@@ -24,19 +24,17 @@
         .flex-container > .snapshot-preview{
             height: 400px;
             width: 550px;
-            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-            /* display: flex;
-            justify-content: center; 
-            align-items: center; */
-
-            margin-top: 100px;
+            /*box-shadow: rgba(100, 100, 100, 0.35) 0px 5px 15px;*/
+            margin: 100px 0px 0px 30px;
             border-radius: 30px;
+            background-color: rgb(255, 255, 255);
+            cursor: pointer;
         }
 
-        .snapshot-photo{
+        .snapshot-photo > img{
             height: 300px;
             width: 550px;
-           
+            border-radius: 30px 30px 0px 0px;
             cursor: pointer;
         }
 
@@ -161,9 +159,9 @@
                     </p>
                 </div>
             </div>
-            <div style="margin-left:30px;" class="snapshot-preview">
+            <div class="snapshot-preview">
                 <div class="snapshot-photo">
-                    <img src="C:\Users\Jeffrey\Pictures\stray.jpg">
+                    <img src="https://www.cctvcamerapros.com/v/180/180-camera-IR-night-vision.jpg">
                 </div>
                 <div class="snapshot-info">
                     <p>
