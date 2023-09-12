@@ -19,13 +19,17 @@
         nav {
             width: 100%;
             height: 70px;
-            background-color: rgb(245, 245, 245);
+            background-color: rgb(255, 255, 255);
             line-height: 70px;
             position: fixed;
         }
         h1 {
             color: rgb(0, 0, 0);
             text-align: center;
+        }
+
+        body {
+            background-color: rgb(245, 245, 245);
         }
 
         .sidenav {
@@ -36,7 +40,7 @@
             left: 0;
             position: absolute;
             right: 25px;
-            background-color: rgb(245, 245, 245);
+            background-color: rgb(255, 255, 255);
             padding: 10px;
             margin: 10px;
             margin-top: 90px;
