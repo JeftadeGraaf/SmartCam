@@ -79,7 +79,7 @@
         }
 
         .notificaties:hover {
-
+            top: -10px;
         }
     </style>
     <body>
