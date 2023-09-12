@@ -80,7 +80,22 @@
         <nav>
             <h1>Dashboard</h1>
         </nav>
-        
+        <div id="sidenav" class="sidenav">
+            <p class="events">Gebeurtenissen</p>
+            <div class="notification">
+                <p>datum:</p>
+                <a href="#">11-09-2023</a>
+            </div>
+            <div class="notification">
+                <p>datum:</p>
+                <p>Hoi</p>
+                <a href="#">11-09-2023</a>
+            </div>
+            <div class="notification">
+                <p>datum:</p>
+                <a href="#">11-09-2023</a>
+            </div>
+        </div>
 
     </body>
 </html>
