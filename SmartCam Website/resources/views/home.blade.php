@@ -53,7 +53,7 @@
         .sidenav a {
             text-decoration: none;
             text-align: center;
-            font-size: 20px;
+            font-size: 18px;
             color: rgb(30, 30, 30);
             
         }
@@ -63,7 +63,7 @@
         }
 
         .events {
-            font-size: 25px;
+            font-size: 23px;
             padding: 10px;
         }
 
@@ -73,6 +73,7 @@
             text-align: center;
             padding: 5px 5px 5px 5px;
             margin: 10px;
+            transition: all 300ms;
             cursor: pointer;
         }
     </style>
