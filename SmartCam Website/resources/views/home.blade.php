@@ -23,7 +23,7 @@
 
         .flex-container > .snapshot-preview{
             height: 400px;
-            width: 550px;
+            width: 600px;
             /*box-shadow: rgba(100, 100, 100, 0.35) 0px 5px 15px;*/
             margin: 100px 0px 0px 30px;
             border-radius: 30px;
@@ -31,9 +31,9 @@
             cursor: pointer;
         }
 
-        .snapshot-photo > img{
+        .snapshot-photo > img, iframe{
             height: 300px;
-            width: 550px;
+            width: 600px;
             border-radius: 30px 30px 0px 0px;
             cursor: pointer;
         }
@@ -146,9 +146,10 @@
         <div class="flex-container">
             <div class="snapshot-preview">
                 <div class="snapshot-photo">
-                <video controls>
+                <iframe src="https://www.youtube.com/embed/coCS7TDqVII" title="AI Generated Family Guy (Parody)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <!--<video controls>
                     <source src="movie.mp4" type="video/mp4">
-                </video>
+                </video>-->
                 </div>
                 <div class="snapshot-info">
                     <p>
