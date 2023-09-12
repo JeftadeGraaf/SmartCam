@@ -14,7 +14,14 @@
             font-family: 'Inter', sans-serif;
         }
 
-        .snapshot-preview{
+        .flex-container {
+            display: flex;
+            justify-content: right;
+            flex-wrap: wrap;
+            margin-right: 50px;
+        }
+
+        .flex-container > .snapshot-preview{
             height: 400px;
             width: 550px;
             box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -22,7 +29,6 @@
             justify-content: center; 
             align-items: center; */
 
-            display: inline-block;
             margin-top: 100px;
             border-radius: 30px;
         }
@@ -30,14 +36,14 @@
         .snapshot-photo{
             height: 300px;
             width: 550px;
-            display: inline-block;
+           
             cursor: pointer;
         }
 
         .snapshot-info{
             height: 50px;
             width: 550px;
-            display: inline-block;
+            
             font-weight: bold;
             text-align: center;
         }
@@ -115,9 +121,7 @@
         }
 
         .notification:hover {
-            transform: translateY(-5px);
-
-            
+            transform: translateY(-5px);    
         }
     </style>
     <body>
@@ -139,9 +143,10 @@
                 <p>datum:</p>
                 <a href="#" class="link">11-09-2023</a>
             </div>
-        </div>\
+        </div>
 
-            <div style="margin-left:360px;" class="snapshot-preview">
+        <div class="flex-container">
+            <div class="snapshot-preview">
                 <div class="snapshot-photo">
                     <img src="C:\Users\Jeffrey\Pictures\stray.jpg">
                 </div>
@@ -156,10 +161,6 @@
                     </p>
                 </div>
             </div>
-
-        </div>
-
-
             <div style="margin-left:30px;" class="snapshot-preview">
                 <div class="snapshot-photo">
                     <img src="C:\Users\Jeffrey\Pictures\stray.jpg">
@@ -175,5 +176,9 @@
                     </p>
                 </div>
             </div>
+        </div>
+
+
+
     </body>
 </html>
