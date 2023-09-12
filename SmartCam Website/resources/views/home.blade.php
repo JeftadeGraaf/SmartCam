@@ -35,7 +35,7 @@
             align-items: center; */
 
             display: inline-block;
-            margin-left: 50px;
+            margin-left: 500px;
             margin-top: 100px;
         }
 
