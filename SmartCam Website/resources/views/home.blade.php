@@ -81,7 +81,7 @@
             background-color: rgb(255, 255, 255);
             padding: 10px;
             margin: 15px;
-            transition: all 300ms;
+            
             margin-top: 85px;
             border-radius: 30px;
             text-align: center;
@@ -108,13 +108,14 @@
             text-align: center;
             padding: 5px 5px 5px 5px;
             margin: 10px;
-            transition: all 300ms;
+            transition: all 350ms ease;
             cursor: pointer;
             
         }
 
         .notification:hover {
             top: -10px;
+            
         }
     </style>
     <body>
