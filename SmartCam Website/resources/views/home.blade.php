@@ -78,14 +78,18 @@
             width: 600px;
             display: inline-block;
             text-align: center;
+
+            font-size: 18px;
+            color: rgb(100, 100, 100);
+
         }
 
         .sidenav a:hover {
-            color: #f1f1f1;
+            color: rgb(30, 30, 30);
         }
 
         .events {
-            font-size: 25px;
+            font-size: 23px;
             padding: 10px;
         }
 
@@ -95,6 +99,7 @@
             text-align: center;
             padding: 5px 5px 5px 5px;
             margin: 10px;
+            transition: all 300ms;
             cursor: pointer;
         }
     </style>
