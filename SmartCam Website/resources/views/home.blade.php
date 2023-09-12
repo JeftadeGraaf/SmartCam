@@ -73,6 +73,7 @@
             text-align: center;
             padding: 5px 5px 5px 5px;
             margin: 10px;
+            cursor: pointer;
         }
     </style>
     <body>
