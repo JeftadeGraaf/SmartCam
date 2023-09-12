@@ -161,7 +161,11 @@
             </div>
             <div class="snapshot-preview">
                 <div class="snapshot-photo">
-                    <img src="https://www.cctvcamerapros.com/v/180/180-camera-IR-night-vision.jpg">
+                <video width="320" height="240" controls>
+                    <source src="movie.mp4" type="video/mp4">
+                    <source src="movie.ogg" type="video/ogg">
+                    Your browser does not support the video tag.
+                </video>
                 </div>
                 <div class="snapshot-info">
                     <p>
