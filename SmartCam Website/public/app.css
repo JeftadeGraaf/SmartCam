@@ -4,6 +4,10 @@
     font-family: 'Inter', sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 .flex-container {
     display: flex;
     justify-content: right;

@@ -12,9 +12,8 @@
 
 
     <body>
-        <nav>
-            <h1>Dashboard</h1>
-        </nav>
+        @include('template.nav')
+        
         @include('template.sidenav')
 
         <div class="flex-container">
