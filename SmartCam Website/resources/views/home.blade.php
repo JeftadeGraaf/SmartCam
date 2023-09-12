@@ -43,8 +43,8 @@
             right: 25px;
             background-color: rgb(255, 255, 255);
             padding: 10px;
-            margin: 10px;
-            margin-top: 80px;
+            margin: 15px;
+            margin-top: 85px;
             text-align: center;
             border-radius: 30px;
             
