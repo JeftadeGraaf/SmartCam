@@ -1,0 +1,37 @@
+version: '3.7'
+services:
+    nginx:
+        image: nginx:1.21.4-alpine
+        restart: unless-stopped
+        environment:
+            - VIRTUAL_HOST=smartcam.local
+        ports:
+            - "80:80"
+        volumes:
+            - ./docker/default.conf:/etc/nginx/conf.d/default.conf
+            - ./public:/var/www/html/public:ro
+        networks:
+            - web
+
+    php:
+        build:
+            context: .
+            dockerfile: Dockerfile
+            args:
+                USER_ID: ${UID:-1000}
+                GROUP_ID: ${GID:-1000}
+        container_name: smartcamweb
+        extra_hosts:
+            - "host.docker.internal:host-gateway"
+        depends_on:
+            - nginx
+        volumes:
+            - ./:/var/www/html
+        networks:
+            - web
+
+volumes:
+    global_cargo_volume:
+
+networks:
+    web:
