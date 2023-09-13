@@ -2,8 +2,9 @@
     <p class="events">Gebeurtenissen</p>
     @foreach($events as $event)
     <div class="notification">
+
         <p>datum:</p>
-        <a href="{{route('viewSnapshot', ['id' => $event->id])}}" class="link">{{$event->date}}</a>
+        <a href="{{route('viewSnapshot', ['id' => $event->id])}}" class="link">{{$event->created_at}}</a>
     </div>
     @endforeach
     <div class="stop">

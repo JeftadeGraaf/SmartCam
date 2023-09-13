@@ -41,7 +41,7 @@
                 </div>
                 <div class="snapshot-date">
                     <p>
-                        {{ $latest->date }}
+                        {{ $latest->created_at }}
                     </p>
                 </div>
             </div>

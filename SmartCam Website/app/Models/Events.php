@@ -10,7 +10,7 @@ class Events extends Model
     use HasFactory;
 
     private int $id;
-    private string $name;
+    private string $naam;
     private string $path;
 
     protected $table = 'events';
@@ -34,7 +34,7 @@ class Events extends Model
      */
     protected $fillable = [
         'id',
-        'name',
+        'naam',
         'path',
     ];
 
@@ -43,7 +43,7 @@ class Events extends Model
      */
     protected $casts = [
         'id' => 'int',
-        'name' => 'string',
+        'naam' => 'string',
         'path' => 'string',
     ];
 }
