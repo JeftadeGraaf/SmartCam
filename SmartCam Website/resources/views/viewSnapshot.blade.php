@@ -13,13 +13,13 @@
 
     <body>
         @include('template.nav')
-        
+
         @include('template.sidenav')
 
         <div class="flex-container">
             <div class="snapshot-preview">
                 <div class="snapshot-photo">
-                    <img src="C:\Users\Jeffrey\Pictures\stray.jpg">
+                    <img src="{{ $event->path }}">
                 </div>
                 <div class="snapshot-info">
                     <p>
@@ -28,7 +28,7 @@
                 </div>
                 <div class="snapshot-date">
                     <p>
-                        11/09/2023 19:10
+                        {{ $event->created_at }}
                     </p>
                 </div>
             </div>
